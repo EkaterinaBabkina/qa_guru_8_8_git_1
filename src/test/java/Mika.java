@@ -9,10 +9,10 @@ import static com.codeborne.selenide.Selenide.open;
 public class Mika {
     @Test
     void SearchMikaOnWiki() {
-        open("https://ru.wikipedia.org/wiki/");
+        open("https://en.wikipedia.org/wiki/Main_Page");
 
         $(byName("search")).setValue("Mika").pressEnter();
 
-        $(".firstHeading").shouldHave(text("Мика"));
+        $(".firstHeading").shouldHave(text("Mika"));
     }
 }
