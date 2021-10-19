@@ -11,8 +11,6 @@ public class Mika {
     void SearchMikaOnWiki() {
         open("https://www.google.ru/");
         $(byName("q")).setValue("Mika").pressEnter();
-        $(byText("Милка - Википедия")).click();
-
-
+        $(byText("Мика - Википедия")).click();
     }
 }
