@@ -13,6 +13,6 @@ public class Mika {
 
         $(byName("search")).setValue("Mika").pressEnter();
 
-        $(".firstHeading").shouldHave(text("Мика"));
+        $(".firstHeading").shouldHave(text("Mika"));
     }
 }
