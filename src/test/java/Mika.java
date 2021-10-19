@@ -11,7 +11,7 @@ public class Mika {
     void SearchMikaOnWiki() {
         open("https://ru.wikipedia.org/wiki/");
 
-        $(byName("search")).setValue("Madonna").pressEnter();
+        $(byName("search")).setValue("Mika").pressEnter();
 
         $(".firstHeading").shouldHave(text("Мика"));
     }
